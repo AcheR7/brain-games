@@ -6,4 +6,4 @@ const startGame = () => {
   console.log(`Hello, ${name}`);
 };
 
-export { startGame };
+export default startGame;
