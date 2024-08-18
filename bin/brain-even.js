@@ -21,8 +21,8 @@ const brainEven = () => {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'. Let's try again, ${name}!`);
       break;
     }
-    console.log(`Congratulations, ${name}`);
   }
+  console.log(`Congratulations, ${name}`);
 };
 
 brainEven();
