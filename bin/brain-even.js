@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-
-const randomNumber = () => Math.floor(Math.random() * (100 - 1 + 1) + 1);
+import randomNumber from './random-number.js';
 
 const brainEven = () => {
   console.log('Welcome to the Brain Games!');
@@ -18,7 +17,9 @@ const brainEven = () => {
     if (rightAnswer === answer) {
       console.log('Correct!');
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'. Let's try again, ${name}!`);
+      console.log(
+        `'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'. Let's try again, ${name}!`,
+      );
       break;
     }
   }
