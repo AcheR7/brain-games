@@ -10,10 +10,10 @@ const brainEven = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   for (let i = 0; i < 3; i++) {
-    let number = randomNumber();
+    const number = randomNumber();
     console.log(`Question: ${number}`);
-    let rightAnswer = number % 2 === 0 ? 'yes' : 'no';
-    const answer = readlineSync.question(`Your answer: `);
+    const rightAnswer = number % 2 === 0 ? 'yes' : 'no';
+    const answer = readlineSync.question('Your answer: ');
 
     if (rightAnswer === answer) {
       console.log('Correct!');
