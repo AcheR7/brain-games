@@ -7,4 +7,4 @@ const startGame = () => {
   return userName;
 };
 
-export default startGames;
+export default startGame;
