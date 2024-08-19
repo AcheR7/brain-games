@@ -13,6 +13,5 @@ make install
   ```
 make publish
 ```
-
-npm link
-```
+  ```
+npm link 
