@@ -11,4 +11,19 @@ const calculator = (expression) => {
   return String(+num1 * +num2);
 };
 
-export { randomNumber, calculator };
+const getDivisior = (a, b) => {
+  if (a === 0 || b === 0) {
+    return a || b;
+  }
+
+  let divisior;
+
+  for (let i = 0; i <= a; i++) {
+    if (a % i === 0 && b % i === 0) {
+      divisior = i;
+    }
+  }
+  return String(divisior);
+};
+
+export { randomNumber, calculator, getDivisior };
