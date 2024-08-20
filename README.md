@@ -20,3 +20,5 @@ npm link
 ### Asciinema for running brain-even game: [![asciicast](https://asciinema.org/a/5O8IFBA5dCy5gL7SrGnKQgn6F.svg)](https://asciinema.org/a/5O8IFBA5dCy5gL7SrGnKQgn6F)
 
 ### Asciinema for running brain-calc game: [![asciicast](https://asciinema.org/a/T7uS3nQTW7RazDu3Aji4r6sv3.svg)](https://asciinema.org/a/T7uS3nQTW7RazDu3Aji4r6sv3)
+
+### Asciinema for running brain-gcd game: [![asciicast](https://asciinema.org/a/eamTf0uwMs4B8Ii0fej3bFiUJ.svg)](https://asciinema.org/a/eamTf0uwMs4B8Ii0fej3bFiUJ)
