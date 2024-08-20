@@ -15,3 +15,6 @@ make publish
 ```
   ```
 npm link 
+```
+
+### Asciinema for running brain-even game: [![asciicast](https://asciinema.org/a/5O8IFBA5dCy5gL7SrGnKQgn6F.svg)](https://asciinema.org/a/5O8IFBA5dCy5gL7SrGnKQgn6F)
