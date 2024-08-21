@@ -1,4 +1,7 @@
-const randomNumber = () => Math.floor(Math.random() * (100 - 1 + 1) + 1);
+const getRandomNumber = (min, max) => {
+  const number = Math.floor(Math.random() * (max - min + 1)) + min;
+  return number;
+};
 
 const calculator = (expression) => {
   const [num1, sign, num2] = expression.split(' ');
@@ -26,4 +29,4 @@ const getDivisior = (a, b) => {
   return String(divisior);
 };
 
-export { randomNumber, calculator, getDivisior };
+export { getRandomNumber, calculator, getDivisior };
