@@ -41,4 +41,6 @@ const isPrime = (n) => {
   return true;
 };
 
-export { getRandomNumber, calculator, getDivisior, isPrime };
+export {
+  getRandomNumber, calculator, getDivisior, isPrime,
+};
