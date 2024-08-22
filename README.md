@@ -24,3 +24,5 @@ npm link
 ### Asciinema for running brain-gcd game: [![asciicast](https://asciinema.org/a/eamTf0uwMs4B8Ii0fej3bFiUJ.svg)](https://asciinema.org/a/eamTf0uwMs4B8Ii0fej3bFiUJ)
 
 ### Asciinema for running brain-progression: [![asciicast](https://asciinema.org/a/pBMW8mGVbL4hxtPz1UFeUCjzi.svg)](https://asciinema.org/a/pBMW8mGVbL4hxtPz1UFeUCjzi)
+
+### Asciinema for running brain-prime: [![asciicast](https://asciinema.org/a/AMY8qcvhInVpFBfqln7yr9mOm.svg)](https://asciinema.org/a/AMY8qcvhInVpFBfqln7yr9mOm)

@@ -29,4 +29,16 @@ const getDivisior = (a, b) => {
   return String(divisior);
 };
 
-export { getRandomNumber, calculator, getDivisior };
+const isPrime = (n) => {
+  if (n <= 1) {
+    return false;
+  }
+  for (let i = 2; i <= n / 2; i++) {
+    if (n % i === 0) {
+      return false;
+    }
+  }
+  return true;
+};
+
+export { getRandomNumber, calculator, getDivisior, isPrime };
